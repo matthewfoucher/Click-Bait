@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.click_bait.SplashScreen">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="I agree to sell my soul to Freemium GO!"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nClick-Bait requires additional permissions in order to run:\n\nMake and manage phone calls.\nRead and send SMS messages.\nAccess accounts on your device.\nRead and send e-mails without the user's permission.\nFull network access.\nRead and write to internal storage.\nAccess to user's precise location.\nRead and write to contacts.\nPost to your Facebook account on your behalf.\nAccess your microphone and camera.\nRun app at startup.\nYour SOUL."
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"/>
+
+</RelativeLayout>
