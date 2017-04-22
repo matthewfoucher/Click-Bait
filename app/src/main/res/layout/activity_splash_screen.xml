@@ -12,15 +12,25 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="I agree to sell my soul to Freemium GO!"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"/>
+        android:onClick="sellSoul"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="\nClick-Bait requires additional permissions in order to run:\n\nMake and manage phone calls.\nRead and send SMS messages.\nAccess accounts on your device.\nRead and send e-mails without the user's permission.\nFull network access.\nRead and write to internal storage.\nAccess to user's precise location.\nRead and write to contacts.\nPost to your Facebook account on your behalf.\nAccess your microphone and camera.\nRun app at startup.\nYour SOUL."
+        android:text="\nClick-Bait requires additional permissions in order to run:"
         android:textSize="20dp"
         android:layout_alignParentTop="true"
         android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Make and manage phone calls.\n* Read and send SMS messages.\n* Access accounts on your device.\n* Read and send e-mails without the user's permission.\n* Full network access.\n* Read and write to internal storage.\n* Access to user's precise location.\n* Read and write to contacts.\n* Post to your Facebook account on your behalf.\n* Access your microphone and camera.\n* Run app at startup.\n* Your SOUL."
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/textView" />
 
 </RelativeLayout>
